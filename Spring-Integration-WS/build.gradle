@@ -10,7 +10,7 @@ dependencies {
    
    implementation 'org.springframework.integration:spring-integration-ws:3.0.8.RELEASE'
 
-   // New Relic Java Agent dependencies
+   // New Relic Labs Java Agent dependencies
    implementation 'com.newrelic.agent.java:newrelic-agent:6.4.0'
    implementation 'com.newrelic.agent.java:newrelic-api:6.4.0'
    implementation fileTree(include: ['*.jar'], dir: '../libs')
@@ -19,9 +19,9 @@ dependencies {
 
 jar {
   manifest {
-    attributes 'Implementation-Title': 'com.newrelic.instrumentation.labs.Spring-Integration-WS'
-    attributes 'Implementation-Vendor': 'New Relic Labs'
-    attributes 'Implementation-Vendor-Id': 'com.newrelic.labs'
+    attributes 'Implementation-Title': 'com.newrelic.instrumentation.labs.labs.Spring-Integration-WS'
+    attributes 'Implementation-Vendor': 'New Relic Labs Labs'
+    attributes 'Implementation-Vendor-Id': 'com.newrelic.labs.labs'
     attributes 'Implementation-Version': 1.0
   }
 }

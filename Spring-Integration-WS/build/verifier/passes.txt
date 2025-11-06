@@ -1,0 +1,2 @@
+Spring-Integration-WS org.springframework.integration:spring-integration-ws:3.0.8.RELEASE
+Spring-Integration-WS org.springframework.integration:spring-integration-ws:3.0.8.RELEASE

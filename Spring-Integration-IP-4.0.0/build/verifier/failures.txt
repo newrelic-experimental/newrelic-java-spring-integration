@@ -1,0 +1,6 @@
+Spring-Integration-IP-4.0.0 org.springframework.integration:spring-integration-ip:7.0.0-RC1
+Spring-Integration-IP-4.0.0 org.springframework.integration:spring-integration-ip:7.0.0-RC2
+Spring-Integration-IP-4.0.0 org.springframework.integration:spring-integration-ip:7.0.0-M3
+Spring-Integration-IP-4.0.0 org.springframework.integration:spring-integration-ip:7.0.0-M2
+Spring-Integration-IP-4.0.0 org.springframework.integration:spring-integration-ip:7.0.0-RC1
+Spring-Integration-IP-4.0.0 org.springframework.integration:spring-integration-ip:7.0.0-RC2

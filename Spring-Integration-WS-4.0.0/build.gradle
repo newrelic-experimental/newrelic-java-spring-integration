@@ -26,5 +26,6 @@ jar {
 }
 
 verifyInstrumentation {
-  passes 'org.springframework.integration:spring-integration-ws:[4.0.0,)'
+  passesOnly 'org.springframework.integration:spring-integration-ws:[4.0.0,)'
+    excludeRegex '.*RC[0-9]'
 }

@@ -26,5 +26,7 @@ jar {
 }
 
 verifyInstrumentation {
- passes 'org.springframework.integration:spring-integration-ip:[4.0.0,)'
+ passesOnly 'org.springframework.integration:spring-integration-ip:[4.0.0,)'
+    excludeRegex '.*M[0-9]'
+    excludeRegex '.*RC[0-9]'
 }

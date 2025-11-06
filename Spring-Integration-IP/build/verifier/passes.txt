@@ -1,0 +1,4 @@
+Spring-Integration-IP org.springframework.integration:spring-integration-ip:3.0.8.RELEASE
+Spring-Integration-IP org.springframework.integration:spring-integration-ip:3.0.8.RELEASE
+Spring-Integration-IP org.springframework.integration:spring-integration-ip:3.0.8.RELEASE
+Spring-Integration-IP org.springframework.integration:spring-integration-ip:3.0.8.RELEASE

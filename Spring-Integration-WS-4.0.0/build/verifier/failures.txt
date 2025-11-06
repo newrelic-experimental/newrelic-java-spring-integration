@@ -1,0 +1,2 @@
+Spring-Integration-WS-4.0.0 org.springframework.integration:spring-integration-ws:7.0.0-RC1
+Spring-Integration-WS-4.0.0 org.springframework.integration:spring-integration-ws:7.0.0-RC2

@@ -29,9 +29,5 @@ jar {
 }
 
 verifyInstrumentation {
-  passes ('org.springframework.integration:spring-integration-core:[5.1.0.RELEASE,5.3.0.RELEASE)')  {
-compile ('org.springframework.ws:spring-ws-core:3.0.3.RELEASE')
-compile ('org.springframework:spring-messaging:5.1.2.RELEASE')
-  
-}
+  passesOnly ('org.springframework.integration:spring-integration-core:[5.1.0.RELEASE,5.1.4.RELEASE)')
 }

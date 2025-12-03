@@ -1,4 +1,9 @@
 .java-version
 .git
-.github
 /.metadata/
+build
+bin
+.idea
+.project
+.settings
+.classpath

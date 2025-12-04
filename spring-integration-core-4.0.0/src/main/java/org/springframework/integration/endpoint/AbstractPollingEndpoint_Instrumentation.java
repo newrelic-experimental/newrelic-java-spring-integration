@@ -8,8 +8,8 @@ import com.newrelic.api.agent.weaver.MatchType;
 import com.newrelic.api.agent.weaver.Weave;
 import com.newrelic.api.agent.weaver.Weaver;
 
-@Weave(type=MatchType.BaseClass)
-public abstract class AbstractPollingEndpoint {
+@Weave(type=MatchType.BaseClass, originalName = "org.springframework.integration.endpoint.AbstractPollingEndpoint")
+public abstract class AbstractPollingEndpoint_Instrumentation {
 
 	@Trace(dispatcher=true)
 	protected void handleMessage(Message<?> message) {

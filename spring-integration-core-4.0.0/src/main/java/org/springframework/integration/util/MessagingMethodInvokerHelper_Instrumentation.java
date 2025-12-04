@@ -9,8 +9,8 @@ import com.newrelic.api.agent.NewRelic;
 import com.newrelic.api.agent.weaver.Weave;
 import com.newrelic.api.agent.weaver.Weaver;
 
-@Weave
-public abstract class MessagingMethodInvokerHelper<T> extends AbstractExpressionEvaluator {
+@Weave(originalName = "org.springframework.integration.util.MessagingMethodInvokerHelper")
+public abstract class MessagingMethodInvokerHelper_Instrumentation<T> extends AbstractExpressionEvaluator {
 
 	public T process(Collection<Message<?>> messages, Map<String, ?> headers) {
 		String displayStr = toString();

@@ -8,8 +8,8 @@ import com.newrelic.api.agent.NewRelic;
 import com.newrelic.api.agent.weaver.Weave;
 import com.newrelic.api.agent.weaver.Weaver;
 
-@Weave
-public abstract class GatewayProxyFactoryBean {
+@Weave(originalName = "org.springframework.integration.gateway.GatewayProxyFactoryBean")
+public abstract class GatewayProxyFactoryBean_Instrumentation {
 
 	public Object invoke(final MethodInvocation invocation) {
 		Method method = invocation.getMethod();

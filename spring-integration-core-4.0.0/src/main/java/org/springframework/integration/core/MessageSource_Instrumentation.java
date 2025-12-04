@@ -8,8 +8,8 @@ import com.newrelic.api.agent.weaver.MatchType;
 import com.newrelic.api.agent.weaver.Weave;
 import com.newrelic.api.agent.weaver.Weaver;
 
-@Weave(type=MatchType.Interface)
-public abstract class MessageSource<T> {
+@Weave(type=MatchType.Interface, originalName = "org.springframework.integration.core.MessageSource")
+public abstract class MessageSource_Instrumentation<T> {
 
 	@Trace(dispatcher=true)
 	public Message<T> receive() {

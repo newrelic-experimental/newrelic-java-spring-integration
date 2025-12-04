@@ -11,8 +11,8 @@ import com.newrelic.api.agent.Trace;
 import com.newrelic.api.agent.weaver.MatchType;
 import com.newrelic.api.agent.weaver.Weave;
 
-@Weave(type=MatchType.Interface)
-public abstract class AsyncMessagingOperations {
+@Weave(type=MatchType.Interface, originalName = "org.springframework.integration.core.AsyncMessagingOperations")
+public abstract class AsyncMessagingOperations_Instrumentation {
 
 	@Trace
 	public abstract Future<?> asyncSend(Message<?> message);

@@ -8,8 +8,8 @@ import com.newrelic.api.agent.weaver.MatchType;
 import com.newrelic.api.agent.weaver.Weave;
 import com.newrelic.api.agent.weaver.Weaver;
 
-@Weave(type=MatchType.Interface)
-public abstract class MessageDispatcher {
+@Weave(type=MatchType.Interface, originalName = "org.springframework.integration.dispatcher.MessageDispatcher")
+public abstract class MessageDispatcher_Instrumentation {
 
 	@Trace
 	public boolean dispatch(Message<?> message) {

@@ -8,8 +8,8 @@ import com.newrelic.api.agent.weaver.MatchType;
 import com.newrelic.api.agent.weaver.Weave;
 import com.newrelic.api.agent.weaver.Weaver;
 
-@Weave(type=MatchType.Interface)
-public abstract class MessageSelector {
+@Weave(type=MatchType.Interface, originalName = "org.springframework.integration.core.MessageSelector")
+public abstract class MessageSelector_Instrumentation {
 
 	@Trace(dispatcher=true)
 	public boolean accept(Message<?> message) {

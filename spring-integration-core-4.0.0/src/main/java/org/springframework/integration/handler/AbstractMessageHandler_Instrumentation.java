@@ -10,8 +10,8 @@ import com.newrelic.api.agent.weaver.MatchType;
 import com.newrelic.api.agent.weaver.Weave;
 import com.newrelic.api.agent.weaver.Weaver;
 
-@Weave(type=MatchType.Interface)
-public abstract class AbstractMessageHandler extends IntegrationObjectSupport  {
+@Weave(type=MatchType.Interface, originalName = "org.springframework.integration.handler.AbstractMessageHandler")
+public abstract class AbstractMessageHandler_Instrumentation extends IntegrationObjectSupport  {
 
 	@Trace(dispatcher=true)
 	public void handleMessage(Message<?> message) {

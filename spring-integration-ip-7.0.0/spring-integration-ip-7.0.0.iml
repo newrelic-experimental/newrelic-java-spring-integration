@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true" LANGUAGE_LEVEL="JDK_1_8">
+    <exclude-output/>
+    <orderEntry type="inheritedJdk"/>
+    <content url="file://$MODULE_DIR$/">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
+      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
+    </content>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-ip/7.0.0/6e836df07b43fd5dc53881b187bef0e70ddda067/spring-integration-ip-7.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-ip/7.0.0/61e70f1cca056c96f722e120b960161be6f1f547/spring-integration-ip-7.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-core/7.0.0/1856e684a1867820240f4305c4d61a7b06acb778/spring-integration-core-7.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-core/7.0.0/32a63f7ce0925def7cc72afcb632a339c37c4463/spring-integration-core-7.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/7.0.0/5e0dacf50a5b52d870a45782ba88cb20690ae276/spring-messaging-7.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/7.0.0/2c6572e3e87becee869d68eda5659885b6349a2a/spring-messaging-7.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.m2/repository/com/newrelic/agent/java/newrelic-agent/8.4.0/newrelic-agent-8.4.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.newrelic.agent.java/agent-bridge/8.4.0/46660462c836e54313d3799ff3e714a434136973/agent-bridge-8.4.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.newrelic.agent.java/agent-bridge/8.4.0/5c86205b5409e572783ea8ee04c239a458c09b8d/agent-bridge-8.4.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.m2/repository/com/newrelic/agent/java/newrelic-api/8.4.0/newrelic-api-8.4.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.m2/repository/com/newrelic/agent/java/newrelic-api/8.4.0/newrelic-api-8.4.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/7.0.0/9f85ae837d5942f875438e42c1781bf8bcab03d3/spring-context-7.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/7.0.0/37eeac53e44f5a3ac641f13a00ef941c5dbef468/spring-context-7.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/7.0.0/5e00066b6a67cb954cfae97145b6f5acccaa5523/spring-aop-7.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/7.0.0/626141e80c6e070332ebd8ab29b0a1a0fbb189ef/spring-aop-7.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/7.0.0/a71e45e139a5402002c1975d254ce02867a0b020/spring-tx-7.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/7.0.0/9fff5dca6be2dd7c0c8fa3d7d7d947e0fd7a85fa/spring-tx-7.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/7.0.0/be4a16aa0eaba2bc26387310df83d7651aafcce2/spring-beans-7.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/7.0.0/f6e8884ef24526f5878c712880f4463738bd104f/spring-beans-7.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/7.0.0/6e1c78dd8e7d1ff5acd761d48af4082eabd2b5c1/spring-expression-7.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/7.0.0/5053e6807f2279b9af1b7427d884b075481f8cca/spring-expression-7.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/7.0.0/309082ed0b2feb050492799f018ea922b1332bf2/spring-core-7.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/7.0.0/18f5ec8ebdcb945f9909668546dc9232c628011c/spring-core-7.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.newrelic.agent.java/newrelic-weaver-api/8.4.0/a0acc7c7399bae8383f8f3deb75189e618523253/newrelic-weaver-api-8.4.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.newrelic.agent.java/newrelic-weaver-api/8.4.0/a3ea16db00546acb14d1a43183d11b13216adca7/newrelic-weaver-api-8.4.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.8.0/21d51d40dda28f8cc3ab9a22fb35dd6146e4323b/reactor-core-3.8.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.8.0/83701b72a13eb2f55df097d1a30bb4c4682faca/reactor-core-3.8.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.16.0/3dc3a2bec5121417b638191b1f3aed16c9764667/micrometer-observation-1.16.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.16.0/2c6b94b6d201da0d0b63480b46c519d6c6f788da/micrometer-observation-1.16.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.m2/repository/commons-logging/commons-logging/1.3.5/commons-logging-1.3.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.16.0/d45ae92945c59eecf485433923fa6a5cf9ce0dbe/micrometer-commons-1.16.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.16.0/feb066c2ddf2c205c8c9891ac80fb0ca7bc51592/micrometer-commons-1.16.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/Open-Source/newrelic-java-spring-integration/test-lib/instrumentation-test.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/dhilpipre/.m2/repository/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/dhilpipre/.m2/repository/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+  <component name="ModuleRootManager"/>
+</module>

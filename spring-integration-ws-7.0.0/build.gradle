@@ -3,11 +3,11 @@
 
 apply plugin: 'java'
 
+targetCompatibility=JavaVersion.VERSION_17
+
 dependencies {
-   // Declare a dependency on each JAR you want to instrument
-   // Example:
-   // implementation 'javax.servlet:servlet-api:2.5'
-   implementation 'org.springframework.integration:spring-integration-ws:4.0.0.RELEASE'
+   implementation 'org.springframework.integration:spring-integration-ws:7.0.0'
+    implementation 'org.springframework:spring-messaging:7.0.0'
 
    // New Relic Labs Java Agent dependencies
    implementation 'com.newrelic.agent.java:newrelic-agent:8.4.0'
@@ -17,7 +17,7 @@ dependencies {
 
 jar {
   manifest {
-    attributes 'Implementation-Title': 'com.newrelic.instrumentation.labs.spring-integration-ws-4.0.0'
+    attributes 'Implementation-Title': 'com.newrelic.instrumentation.labs.spring-integration-ws-7.0.0'
     attributes 'Implementation-Vendor': 'New Relic Labs'
     attributes 'Implementation-Vendor-Id': 'com.newrelic.labs'
     attributes 'Implementation-Version': 1.0
@@ -25,6 +25,6 @@ jar {
 }
 
 verifyInstrumentation {
-  passesOnly 'org.springframework.integration:spring-integration-ws:[4.0.0,7.0.0)'
+  passesOnly 'org.springframework.integration:spring-integration-ws:[7.0.0,)'
     excludeRegex '.*RC[0-9]'
 }

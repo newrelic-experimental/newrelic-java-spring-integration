@@ -1,4 +1,0 @@
-Spring-Integration-Core org.springframework.integration:spring-integration-core:3.0.8.RELEASE
-Spring-Integration-Core org.springframework.integration:spring-integration-core:3.0.8.RELEASE
-Spring-Integration-Core org.springframework.integration:spring-integration-core:3.0.8.RELEASE
-Spring-Integration-Core org.springframework.integration:spring-integration-core:3.0.8.RELEASE

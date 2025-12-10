@@ -7,9 +7,7 @@ dependencies {
    // Declare a dependency on each JAR you want to instrument
    // Example:
    // implementation 'javax.servlet:servlet-api:2.5'
-   implementation 'org.springframework.integration:spring-integration-core:5.3.0.RELEASE'
-   implementation 'org.springframework.integration:spring-integration-http:5.3.0.RELEASE'
-   implementation 'org.springframework.integration:spring-integration-ws:5.3.0.RELEASE'
+   implementation 'org.springframework.integration:spring-integration-core:6.5.0'
 
    // New Relic Labs Java Agent dependencies
    implementation 'com.newrelic.agent.java:newrelic-agent:8.4.0'
@@ -20,7 +18,7 @@ dependencies {
 
 jar {
   manifest {
-    attributes 'Implementation-Title': 'com.newrelic.instrumentation.labs.spring-integration-core-5.3.0'
+    attributes 'Implementation-Title': 'com.newrelic.instrumentation.labs.spring-integration-core-6.5.0'
     attributes 'Implementation-Vendor': 'New Relic Labs'
     attributes 'Implementation-Vendor-Id': 'com.newrelic.labs'
     attributes 'Implementation-Version': 1.0
@@ -28,5 +26,5 @@ jar {
 }
 
 verifyInstrumentation {
-  passesOnly 'org.springframework.integration:spring-integration-core:[5.3.0.RELEASE,6.4.0)'
+  passesOnly 'org.springframework.integration:spring-integration-core:[6.5.0,)'
 }

@@ -45,7 +45,7 @@ public abstract class AbstractPollingEndpoint_Instrumentation {
     }
 
     @Trace(async=true)
-    private void messageReceived(IntegrationResourceHolder_Instrumentation holder, Message<?> message) {
+    protected void messageReceived(IntegrationResourceHolder_Instrumentation holder, Message<?> message) {
         if (holder != null) {
             if (holder.token != null) {
                 holder.token.linkAndExpire();

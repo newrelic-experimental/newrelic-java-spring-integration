@@ -1,9 +1,11 @@
 package org.springframework.messaging.core;
 
+import com.newrelic.api.agent.NewRelic;
 import com.newrelic.api.agent.Trace;
 import com.newrelic.api.agent.weaver.MatchType;
 import com.newrelic.api.agent.weaver.Weave;
 import com.newrelic.api.agent.weaver.Weaver;
+import com.newrelic.instrumentation.labs.spring.messaging.SpringMessageHeaders;
 import org.springframework.messaging.Message;
 import org.springframework.messaging.MessagingException;
 
@@ -13,12 +15,12 @@ import java.util.Map;
 public class MessageSendingOperations_Instrumentation<D> {
 
     @Trace
-    public void send(Message<?> var1) {
+    public void send(Message<?> message) {
         Weaver.callOriginal();
     }
 
     @Trace
-    public void send(D var1, Message<?> var2) {
+    public void send(D var1, Message<?> message) {
         Weaver.callOriginal();
     }
 

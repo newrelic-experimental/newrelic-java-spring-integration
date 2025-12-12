@@ -1,7 +1,6 @@
 package com.newrelic.instrumentation.labs.spring.messaging;
 
 import com.newrelic.api.agent.Segment;
-import reactor.core.publisher.Mono;
 
 public class NRHolder {
 

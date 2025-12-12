@@ -1,7 +1,5 @@
 package org.springframework.messaging.core;
 
-import com.newrelic.api.agent.TransportType;
-import com.newrelic.instrumentation.labs.spring.messaging.SpringMessageHeaders;
 import org.springframework.messaging.Message;
 import org.springframework.messaging.MessageChannel_Instrumentation;
 
@@ -23,22 +21,12 @@ public abstract class GenericMessagingTemplate {
     @Trace
     protected final Message<?> doSendAndReceive(MessageChannel_Instrumentation channel, Message<?> requestMessage) {
         NewRelic.getAgent().getTracedMethod().setMetricName(new String[] {"Custom","GenericMessagingTemplate",getClass().getSimpleName(),"sendAndReceive"});
-        Message<?> message = Weaver.callOriginal();
-        if(message != null) {
-            SpringMessageHeaders<?> headers = new SpringMessageHeaders<>(message);
-            NewRelic.getAgent().getTransaction().acceptDistributedTraceHeaders(TransportType.Other, headers);
-        }
-        return message;
+        return Weaver.callOriginal();
     }
 
     @Trace
     protected final Message<?> doReceive(MessageChannel_Instrumentation channel) {
         NewRelic.getAgent().getTracedMethod().setMetricName(new String[] {"Custom","GenericMessagingTemplate",getClass().getSimpleName(),"receive"});
-        Message<?> message = Weaver.callOriginal();
-        if(message != null) {
-            SpringMessageHeaders<?> headers = new SpringMessageHeaders<>(message);
-            NewRelic.getAgent().getTransaction().acceptDistributedTraceHeaders(TransportType.Other, headers);
-        }
-        return message;
+        return Weaver.callOriginal();
     }
 }

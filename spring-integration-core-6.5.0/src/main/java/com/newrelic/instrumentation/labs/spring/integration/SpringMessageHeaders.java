@@ -11,7 +11,7 @@ import java.util.List;
 
 public class SpringMessageHeaders implements Headers {
 
-    private Message<?> message;
+    private final Message<?> message;
 
     public SpringMessageHeaders(Message<?> message) {
         this.message = message;

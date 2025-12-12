@@ -18,7 +18,6 @@ public abstract class MessageChannel {
 	@Trace
 	public boolean send(Message<?> message, long timeout) {
 		NewRelic.getAgent().getTracedMethod().setMetricName(new String[] {"Custom","MessageChannel",getClass().getSimpleName(),"send"});
-		boolean b = Weaver.callOriginal();
-		return b;
+        return Weaver.callOriginal();
 	}
 }

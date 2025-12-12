@@ -1,13 +1,10 @@
 package org.springframework.messaging.core;
 
-import com.newrelic.api.agent.NewRelic;
 import com.newrelic.api.agent.Trace;
 import com.newrelic.api.agent.weaver.MatchType;
 import com.newrelic.api.agent.weaver.Weave;
 import com.newrelic.api.agent.weaver.Weaver;
-import com.newrelic.instrumentation.labs.spring.messaging.SpringMessageHeaders;
 import org.springframework.messaging.Message;
-import org.springframework.messaging.MessagingException;
 
 import java.util.Map;
 

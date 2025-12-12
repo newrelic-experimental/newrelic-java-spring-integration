@@ -16,7 +16,6 @@ public class MessageBuilder_Instrumentation<T> {
     public Message<T> build() {
         SpringHeaderAccessorWrapper springHeaderAccessorWrapper = new SpringHeaderAccessorWrapper(headerAccessor);
         NewRelic.getAgent().getTransaction().insertDistributedTraceHeaders(springHeaderAccessorWrapper);
-        NewRelic.getAgent().getLogger().log(Level.FINE,"Inserted DistributedTrace Headers");
         return Weaver.callOriginal();
     }
 }

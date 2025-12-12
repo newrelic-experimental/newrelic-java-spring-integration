@@ -17,7 +17,6 @@ public class BaseMessageBuilder_Instrumentation<T> {
     public Message<T> build() {
         HeaderAccessorWrapper wrapper = new HeaderAccessorWrapper(headerAccessor);
         NewRelic.getAgent().getTransaction().insertDistributedTraceHeaders(wrapper);
-        NewRelic.getAgent().getLogger().log(Level.FINER, "Inserted Distributed Tracing Headers");
         return Weaver.callOriginal();
     }
 }

@@ -10,7 +10,7 @@ import java.util.List;
 
 public class SpringMessageHeaders<T> implements Headers {
 
-    private Message<T> message;
+    private final Message<T> message;
 
     public SpringMessageHeaders(Message<T> message) {
         this.message = message;

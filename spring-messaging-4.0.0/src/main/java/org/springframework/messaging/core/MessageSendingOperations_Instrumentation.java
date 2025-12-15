@@ -5,7 +5,6 @@ import com.newrelic.api.agent.weaver.MatchType;
 import com.newrelic.api.agent.weaver.Weave;
 import com.newrelic.api.agent.weaver.Weaver;
 import org.springframework.messaging.Message;
-import org.springframework.messaging.MessagingException;
 
 import java.util.Map;
 

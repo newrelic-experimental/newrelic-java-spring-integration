@@ -2,7 +2,7 @@ package com.newrelic.instrumentation.labs.spring.messaging;
 
 public class NRCancelRunnable implements Runnable {
 
-    private NRHolder nrHolder;
+    private final NRHolder nrHolder;
     public NRCancelRunnable(NRHolder nrHolder) {
         this.nrHolder = nrHolder;
     }

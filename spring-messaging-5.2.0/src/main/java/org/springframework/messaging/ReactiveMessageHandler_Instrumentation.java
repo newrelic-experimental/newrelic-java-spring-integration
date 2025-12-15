@@ -15,7 +15,7 @@ import reactor.core.publisher.Mono;
 public class ReactiveMessageHandler_Instrumentation {
 
     @Trace
-    public Mono<Void> handleMessage(Message<?> var1) {
+    public Mono<Void> handleMessage(Message<?> message) {
         NRHolder nrHolder = new NRHolder(NewRelic.getAgent().getTransaction().startSegment("Custom/ReactiveMessageHandler/handleMessage"));
         Mono<Void>  result = Weaver.callOriginal();
         return result.doOnCancel(new NRCancelRunnable(nrHolder)).doOnError(new NRErrorConsumer(nrHolder)).doOnSuccess(new NRResultConsumer<>(nrHolder));

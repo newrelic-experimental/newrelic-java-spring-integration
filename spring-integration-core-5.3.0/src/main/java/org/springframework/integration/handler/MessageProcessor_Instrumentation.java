@@ -15,7 +15,6 @@ public abstract class MessageProcessor_Instrumentation<T> {
 
 	@Trace
 	public T processMessage(Message<?> message)  {
-		NewRelic.getAgent().getLogger().log(Level.FINE,new Exception("Call to processMessage"),"Call to processMessage in class {0}", this.getClass().getName());
 		NewRelic.getAgent().getTracedMethod().setMetricName(new String[] {"Custom","MessageProcessor",getClass().getSimpleName(),"processMessage"});
 		return Weaver.callOriginal();
 	}

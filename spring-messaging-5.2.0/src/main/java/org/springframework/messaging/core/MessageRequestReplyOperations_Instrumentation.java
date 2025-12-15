@@ -1,5 +1,6 @@
 package org.springframework.messaging.core;
 
+import com.newrelic.api.agent.Trace;
 import com.newrelic.api.agent.weaver.MatchType;
 import com.newrelic.api.agent.weaver.Weave;
 import com.newrelic.api.agent.weaver.Weaver;
@@ -10,6 +11,7 @@ import java.util.Map;
 @Weave(type = MatchType.Interface, originalName = "org.springframework.messaging.core.MessageRequestReplyOperations")
 public class MessageRequestReplyOperations_Instrumentation<D> {
 
+    @Trace
     public Message<?> sendAndReceive(Message<?> var1) {
         return Weaver.callOriginal();
     }

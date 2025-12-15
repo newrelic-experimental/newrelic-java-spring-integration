@@ -21,8 +21,7 @@ public abstract class GenericMessagingTemplate {
     @Trace
     protected final Message<?> doSendAndReceive(MessageChannel_Instrumentation channel, Message<?> requestMessage) {
         NewRelic.getAgent().getTracedMethod().setMetricName(new String[] {"Custom","GenericMessagingTemplate",getClass().getSimpleName(),"sendAndReceive"});
-        Message<?> msg = Weaver.callOriginal();
-        return msg;
+        return Weaver.callOriginal();
     }
 
     @Trace

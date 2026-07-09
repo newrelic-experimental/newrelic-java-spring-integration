@@ -13,8 +13,8 @@ dependencies {
    implementation 'org.springframework.integration:spring-integration-ws:5.1.0.RELEASE'
 
    // New Relic Labs Java Agent dependencies
-   implementation 'com.newrelic.agent.java:newrelic-agent:8.4.0'
-   implementation 'com.newrelic.agent.java:newrelic-api:8.4.0'
+   implementation 'com.newrelic.agent.java:newrelic-agent:' + project.findProperty('java.agent.version')
+   implementation 'com.newrelic.agent.java:newrelic-api:' + project.findProperty('java.agent.version')
    implementation 'com.newrelic.agent.java:agent-bridge:8.4.0'
    implementation fileTree(include: ['*.jar'], dir: '../test-lib')
 }

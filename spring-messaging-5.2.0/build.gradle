@@ -8,8 +8,8 @@ dependencies {
     implementation 'io.projectreactor:reactor-core:3.6.9'
 
    // New Relic Labs Java Agent dependencies
-   implementation 'com.newrelic.agent.java:newrelic-agent:8.4.0'
-   implementation 'com.newrelic.agent.java:newrelic-api:8.4.0'
+   implementation 'com.newrelic.agent.java:newrelic-agent:' + project.findProperty('java.agent.version')
+   implementation 'com.newrelic.agent.java:newrelic-api:' + project.findProperty('java.agent.version')
    implementation fileTree(include: ['*.jar'], dir: '../test-lib')
 }
 
@@ -24,7 +24,7 @@ jar {
 
 verifyInstrumentation {
     passesOnly('org.springframework:spring-messaging:[5.2.0.RELEASE,)') {
-        compile('io.projectreactor:reactor-core:3.6.9')
+        implementation('io.projectreactor:reactor-core:3.6.9')
     }
   // Verifier plugin documentation:
   // https://github.com/newrelic/newrelic-gradle-verify-instrumentation
